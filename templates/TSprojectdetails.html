@@ -135,8 +135,7 @@
               <div class="col-md-1"></div>
             </div>
 
-
-            <div class="container mt-3 " style="border-top:1px solid grey;">
+           <div class="container mt-3 " style="border-top:1px solid grey;">
               <div class="text-info pt-4" style="font-size: 20px;font-weight: 600;">Project description</div>
               <div class="pt-3 " style="margin-left:20px;color:white;">{{var.description}}</div>
             </div>
@@ -196,10 +195,7 @@
                 <td class="text-light"><label name="subtask">{{i.subtask}}</label>
                 </td>
                 <td class="text-light"><label name="workdone">{{i.workdone}}</label></td>
-                <!-- <td class="text-light">
-                 <div class="badge badge-outline-info">                      
-                  <a  style="text-decoration:none;" href ="{{i.json_testerscreenshot}}" download>Download</a></div>
-                  </td> -->
+              
                 <td class="text-info">
                   {% for ss in i.json_testerscreenshot %}
                   <a href="" style="text-decoration:none;">
